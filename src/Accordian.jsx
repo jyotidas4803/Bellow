@@ -10,7 +10,9 @@ function Accordion({
   }) {
   return (
     
-        <details className='w-80 bg-blue-200 p-4 rounded-lg m-2' open={isOpen}  onClick={() => onClick(title)}>
+        <details className='w-80 bg-blue-200 p-4 rounded-lg m-2' 
+        open={isOpen} 
+         onClick={() => onClick(title)}>
             <summary  className={` cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-lg font-bold ${underline && "underline"}`}>
             <span className={`${underline && 'hover:underline'}`}>{title}</span>
                <span className='ml-2 font-thin no-underline text-gray-300'>

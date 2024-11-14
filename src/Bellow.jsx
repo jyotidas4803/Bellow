@@ -32,7 +32,7 @@ function Bellow({
      />
    ))}
     </div>
-  )
+  );
 }
 
 export default Bellow;

@@ -7,7 +7,7 @@ function App() {
 
 
 return (
-  debates && (
+
     <div className="flex justify-center items-center h-screen">
       <Bellow
       data={items}
@@ -18,7 +18,7 @@ return (
       onClick={(value) => console.log(value)}
          />
     </div>
-  )
+  
 );
 }
 
