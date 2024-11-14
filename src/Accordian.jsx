@@ -1,10 +1,14 @@
 import React from 'react'
 
-function Accordian({title = 'title', description = 'This is an accordian'}) {
+function Accordion({
+    title = "Title",
+    description = "Description",
+    isOpen = false,
+  }) {
   return (
     
-        <details className='w-80 bg-blue-200 p-4 rounded-lg m-2' open={false}>
-            <summary className='cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-lg font-bold'>
+        <details className='w-80 bg-blue-200 p-4 rounded-lg m-2' open={isOpen}>
+            <summary className='cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-lg font-bold hover:underline'>
                 {title}
             </summary>
 
@@ -17,4 +21,4 @@ function Accordian({title = 'title', description = 'This is an accordian'}) {
   )
 }
 
-export default Accordian
+export default Accordion;
