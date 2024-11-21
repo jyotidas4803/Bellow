@@ -8,6 +8,7 @@ function Bellow({
   underline = true,
   showWordCount = false,
   onClick = () => {},
+  setLastClicked={setLastClicked}
   
  })
   {
@@ -27,8 +28,8 @@ function Bellow({
     isOpen={isOpen}
     underline={underline}
     showWordCount={showWordCount}
-    // onClick={onClick} 
-   
+    onClick={onClick} 
+   setLastClicked={setLastClicked}
      />
    ))}
     </div>
