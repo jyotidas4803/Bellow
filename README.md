@@ -1,4 +1,4 @@
 # Bellow
-A simple, beautiful, and customizable note-taking app.
-        
+
+Bellow is a simple, lightweight, and extensible web framework for Go.
 
